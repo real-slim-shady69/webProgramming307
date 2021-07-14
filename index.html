@@ -4,17 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
     <title>Web Programming Practicals</title>
     <style>
+        *{
+            margin: 0;
+        }
         #title{
             text-align: center;
+            font-family: 'Sacramento', cursive;
+            font-size: 70px;
+            color: #6b3d64;
         }
         #note{
             font-size: 20px;
-            background: rgb(121, 117, 117);
+            background: rgba(138, 43, 226,0.4);
             border-radius: 30px;
             color:black;
-            padding: 10px;
+            padding: 1.5%;
+        }
+        a{
+            color:#6b3d64;
+            text-decoration: none;
         }
         #content{
             font-size: 20px;
@@ -22,32 +35,68 @@
         #copyright{
             margin: 5px;
             text-align: center;
+        
+        }
+        .gg{
+            background-image: url(../img/mountain.jpg);
+            background-color: rgba(0,0,0,0.7);
+            height: 100vh;
+            background-size: cover;
+        }
+        .credits{
+            font-size: 1.5rem;
+            text-decoration: none;
+            color: white;
+            text-align: center;
+        }
+        body{
+            position: relative;
+        }
+        .foot{
+            position: absolute;
+            background-color:rgba(138, 43, 226,0.4);
+            width: 100%;
+            height: 15%;
+            bottom: 0;
+
         }
     </style>
 </head>
 <body>
-    <h1 id="title">Web Programming </h1>
-    <div id="content">
-        <ul>
-            <li>Practial 1</li>
-            <a href="./P1Source.txt">Source Code</a>
+    <div class="gg">
+        <h1 id="title">Web Programming </h1>
+        <div id="content">
             <ul>
-                <li><a href="./P1QuestionA.html">Write a HTML program to display image onto the webpage</a></li>
-                <li><a href="./P1QuestionB.html">Write a HTML program to demonstrate header text</a></li>
-                <li><a href="./P1QuestionC.htm">Write a HTML program to demonstrate list and list attributes</a></li>
-                <li><a href="./P1QuestionD.html">Write a HTML program to demonstrate Hyperlinks</a> </li>
-                <li><a href="./P1QuestionE.html">Write a HTML program to demonstrate font tag and it's attributes</a></li>
+                <li>Practial 1</li>
+                <a href="./Source.txt">Source Code</a>
+                <ul>
+                    <li><a href="./QuestionA.html">Write a HTML program to display image onto the webpage</a></li>
+                    <li><a href="./QuestionB.html">Write a HTML program to demonstrate header text</a></li>
+                    <li><a href="./QuestionC.htm">Write a HTML program to demonstrate list and list attributes</a></li>
+                    <li><a href="./QuestionD.html">Write a HTML program to demonstrate Hyperlinks</a> </li>
+                    <li><a href="./QuestionE.html">Write a HTML program to demonstrate font tag and it's attributes</a></li>
+                </ul>
             </ul>
-        </ul>
+        </div>
+        <br>
+        <br>
+        
+        <p id="note">If you are using a moblie device and webpage is not loading properly,turn on Desktop site mode in your
+            browser. </p>
+        <br>
+
+        <div class="foot">
+                <br>
+        
+            <div class="credits">
+                <a href="./Contact.html">Contact Me</a>
+                
+                <p id="copyright">&copy; Salman Sayyed 2021</p>
+            </div>
+        </div>
+        
     </div>
-
-
-<footer><p id="note">If you are using a moblie and webpage is not loading 
-     properly,turn on Desktop site mode in your browser. </p>
-<form action=""></form>
-
-<p id="copyright">&copy; Salman Sayyed</p>
-</footer>
+    
 
 </body>
 
