@@ -1,0 +1,224 @@
+<!-- Practical 1 
+Question 1 A
+Aim: Write a HTML program to display image onto the webpage
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Image (Question 1)</title>
+    <style>
+        body{
+            background-color: gray;
+        }
+        img
+        {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+            margin-top: 100px;
+            border: 5px solid white;
+        }
+        div{
+            background-color:black;
+        }
+        #name{
+            text-align: center;
+            font-size: 80px;
+            color: black;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="https://media.tenor.com/images/e3a98713d33d438e096638f1c344193d/tenor.gif" alt="Check-your-internet-connection">
+        
+    </div>
+    <h1 id="name">Hey</h1>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+<!-- Practical 1
+Question 1 B
+Aim:Write a HTML program to demonstrate header text
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Header text(H1 to H6)</title>
+</head>
+<body>
+    <p id="t" style="font-size: 90px; margin-top: 0;">Headings From H1 to H6</p>
+    <br>
+    <div style="width: 100%; background-color:black; color: white; padding:30px 30px">
+    <h1>This is Heading 1</h1>
+    <h2>This is Heading 2</h2>
+    <h3>This is Heading 3</h3>
+    <h4>This is Heading 4</h4>
+    <h5>This is Heading 5</h5>
+    <h6>This is Heading 6</h6>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+<!-- Practical 1 
+Question 1C
+Aim:Write a HTML program to demonstrate list and list attributes
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>List's</title>
+    <style>
+        p{
+            text-align: center;
+            font-size: 50px;
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body><p>Item Lists</p>
+    <div class="ordered-list">
+        <ol>
+            <h2>Select your search engine</h2>
+            <li><a href="#">Google</a></li>
+            <li><a href="#">Yahoo</a></li>
+            <li><a href="#">Bing</a></li>
+        </ol>
+        <ol><h2>Select your browser</h2>
+            <li><a href="#">Firefox</a><ol>
+                <li>Linux</li>
+                <li>Windows</li>
+            </ol></li>
+            <li><a href="#">Chrome</a>
+            <ol><li>Linux</li>
+            <li>Windows</li></ol></li>
+
+        </ol>
+    </div>
+
+    <div class="unorderd-list">
+        <ul>
+            <h2>Select your starter Pokemon</h2>
+            <li>Pikachu</li>
+            <li>Bulbasaur</li>
+            <li>Charmander</li>
+        </ul>
+        <ul style="list-style-type: square;">
+            <h2>Select your Operating System</h2>
+            <li>Windows</li>
+            <li>Linux</li>
+            <li>Mac OS</li>
+        </ul>
+        <ul>
+            <h2></h2>
+        </ul>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+<!-- Practical 1
+Question 1D
+Aim:Write a HTML program to demonstrate Hyperlinks
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HyperLinks</title>
+    <style>
+        #leo{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+        #text{
+            position: absolute;
+            right: 75px;
+            top: 430px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        #social-links{
+            font-size: 30px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div id="first-link">
+        
+        <p id="social-links"> 
+            Go to my <a href="#">Instagram</a> <br>
+            Go to my <a href="#">Twitter</a> <br>
+            Go to my <a href="#">GitHub</a> <br> <br>
+            Click <a href="https://www.youtube.com/watch?v=NUYvbT6vTPs&ab_channel=BilalG%C3%B6regen">here</a> to see a cat vibing.
+        </p>
+    </div>
+    <div id="leo"><a href="https://en.wikipedia.org/wiki/Leonardo_DiCaprio"><img id="img-one"
+            src="https://media.tenor.com/images/c9f57ac5b804b473e16f522ca95ba910/tenor.gif" alt="Leonardo_DiCaprio"></a>
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+<!-- Practical 1
+Question 1E
+Aim:Write a HTML program to demonstrate font tag and it's attributes
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Fonts</title>
+    <style>
+        p{
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        <font size="200px" color="red">This is some text!</font>
+    </p>
+    <p>
+        <font size="20" color="cyan">This is some text!</font>
+    </p>
+    <p>
+        <font face="verdana" color="yellow">This is some text!</font>
+    </p>
+    
+    <p><strike>Hell0, happy day ;)</strike></p>
+    <p><B>Hell0, happy day ;)</B></p>
+    <p><i>Hell0, happy day :)</i></p>
+    <p><u>Hell0, happy day (:</u></p>
+
+</body>
+</html>
