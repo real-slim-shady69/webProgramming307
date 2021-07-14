@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+  input[type=text], input[type=email] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #6b3d64;
+  background-color: rgba(138, 43, 226,0.4);
+  border-radius: 30px;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+  font-size: 20px;
+}
+input[type=button], input[type=submit], input[type=reset] {
+  background-color:#6b3d64 ;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 20px;
+}
+label, .msg{
+    font-size: 1.5rem;
+
+}
+.form{
+    margin-top: 20px;
+    padding-top: 10px;
+}
+a{
+    text-decoration: none;
+    font-size: 30px;
+    color: #6b3d64;
+}
+body{
+         background: rgba(138, 43, 226,0.4);
+}
+    </style>
+</head>
+
+<body>
+    <a href="./index.html">Home</a>
+    <div class="form">
+    <form action="https://getform.io/f/f8957ae7-7bc3-48f0-80dd-85a63b69e44a" method="POST">
+        <label for="name">Name:</label>
+        <input type="text"  name="name" id="name" placeholder="Your Name">
+<br>
+
+        <label for="email" >Email:</label>
+        <input type="email" name="email" id="email" placeholder="Email Address">
+<br>
+         <p class="msg">Message</p>
+         <textarea name="response" id="response" cols="30" rows="10">
+
+         </textarea>
+         <br>
+         <input type="submit" value="submit" id="submitbtn">
+    </form>
+    </div>
+</body>
+</html>
